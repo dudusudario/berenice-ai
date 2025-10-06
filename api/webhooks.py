@@ -8,6 +8,7 @@ from fastapi import APIRouter, BackgroundTasks, Request
 from models.message import WebhookMessage
 from services.zapi_service import zapi_service
 from services.graphiti_service import graphiti_service
+from services.websocket_service import ws_manager
 from config.prompts import get_welcome_message
 from config.settings import settings
 
@@ -59,6 +60,14 @@ async def receive_message(
             return {"status": "ignored", "reason": "no_text_content"}
 
         logger.info(f"Received message from {sender_name} ({phone}): {message_text[:50]}...")
+
+        # Broadcast incoming message to dashboard
+        await ws_manager.broadcast_incoming_message(
+            phone=phone,
+            sender_name=sender_name,
+            message_text=message_text,
+            message_id=message.messageId,
+        )
 
         # Add message processing to background tasks
         background_tasks.add_task(
@@ -129,6 +138,9 @@ async def process_message(
         else:
             conversation_states[phone]["messages_count"] += 1
 
+        # Broadcast agent thinking status
+        await ws_manager.broadcast_agent_thinking(phone, "processing")
+
         # Process message with SDR agent
         from agent.sdr_agent import process_patient_message
 
@@ -139,6 +151,16 @@ async def process_message(
 
         # Send response
         await zapi_service.send_text(phone, response)
+
+        # Broadcast outgoing message to dashboard
+        await ws_manager.broadcast_outgoing_message(
+            phone=phone,
+            patient_name=sender_name,
+            message_text=response,
+        )
+
+        # Broadcast agent done status
+        await ws_manager.broadcast_agent_thinking(phone, "idle")
 
         # Mark original message as read
         await zapi_service.mark_as_read(phone, message_id)

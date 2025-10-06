@@ -6,6 +6,7 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from api.webhooks import router as webhooks_router
+from api.dashboard import router as dashboard_router
 from services.graphiti_service import graphiti_service
 from config.settings import settings, validate_settings
 
@@ -38,6 +39,8 @@ async def lifespan(app: FastAPI):
         logger.info(f"🚀 Application ready on http://{settings.host}:{settings.port}")
         logger.info(f"📱 Clinic: {settings.clinic_name}")
         logger.info(f"📍 Webhook URL: http://{settings.host}:{settings.port}/webhook/message")
+        logger.info(f"📊 Dashboard URL: http://{settings.host}:{settings.port}/dashboard/ws")
+        logger.info(f"🌐 Frontend: Open frontend/index.html or run npm start in frontend/")
 
     except Exception as e:
         logger.error(f"❌ Startup failed: {e}", exc_info=True)
@@ -70,6 +73,7 @@ app.add_middleware(
 
 # Include routers
 app.include_router(webhooks_router)
+app.include_router(dashboard_router)
 
 
 @app.get("/")
