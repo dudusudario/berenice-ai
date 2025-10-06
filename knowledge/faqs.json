@@ -1,0 +1,134 @@
+{
+  "faqs": [
+    {
+      "question": "Qual o horário de funcionamento da clínica?",
+      "answer": "Funcionamos de segunda a sexta das 8h às 20h, e sábados das 8h às 14h. Atendimentos de emergência podem ser agendados fora desse horário."
+    },
+    {
+      "question": "A primeira consulta é paga?",
+      "answer": "A consulta de avaliação tem um custo de R$ 150, que é abatido do valor do tratamento caso você decida realizá-lo conosco."
+    },
+    {
+      "question": "Vocês aceitam convênio?",
+      "answer": "Sim! Aceitamos diversos convênios odontológicos como Amil Dental, Bradesco Dental, SulAmérica Odonto, Odontoprev e outros. Entre em contato para verificar se o seu convênio está na nossa lista."
+    },
+    {
+      "question": "Como funciona o parcelamento?",
+      "answer": "Oferecemos parcelamento em até 12x sem juros no cartão de crédito, e até 18x com juros. Também aceitamos PIX e dinheiro com 5% de desconto."
+    },
+    {
+      "question": "Quanto tempo dura um clareamento dental?",
+      "answer": "O tratamento de clareamento geralmente requer 3 a 4 sessões de 40 minutos cada. O resultado dura de 1 a 2 anos, dependendo dos seus hábitos alimentares."
+    },
+    {
+      "question": "O tratamento de ortodontia dói?",
+      "answer": "É normal sentir um leve desconforto nos primeiros dias após colocar ou ajustar o aparelho, mas não é uma dor intensa. Usamos técnicas modernas que minimizam o desconforto."
+    },
+    {
+      "question": "Quanto tempo leva para colocar um implante?",
+      "answer": "O processo completo leva de 3 a 6 meses. Primeiro colocamos o pino de titânio (cirurgia rápida), aguardamos a osseointegração (3-4 meses), e então colocamos a coroa definitiva."
+    },
+    {
+      "question": "Vocês atendem crianças?",
+      "answer": "Sim! Temos odontopediatras especializados em atendimento infantil. Recomendamos a primeira consulta assim que nascem os primeiros dentinhos."
+    },
+    {
+      "question": "Como agendar uma consulta?",
+      "answer": "Você pode agendar aqui pelo WhatsApp mesmo! Basta me informar o dia e horário de sua preferência que verifico a disponibilidade para você."
+    },
+    {
+      "question": "A clínica está em qual endereço?",
+      "answer": "Estamos localizados na Rua Groenlandia 848, Jardim America - São Paulo - SP. Temos estacionamento conveniado e fácil acesso por transporte público."
+    },
+    {
+      "question": "Preciso fazer algum exame antes?",
+      "answer": "Na primeira consulta, o dentista avaliará sua situação e solicitará os exames necessários (radiografias, tomografia, etc.) se for o caso. Geralmente realizamos os exames na própria clínica."
+    },
+    {
+      "question": "Quanto custa um tratamento de canal?",
+      "answer": "O valor varia de R$ 600 a R$ 2.000 dependendo do dente e complexidade. Fazemos uma avaliação detalhada antes de iniciar o tratamento."
+    },
+    {
+      "question": "Vocês fazem clareamento a laser?",
+      "answer": "Sim! Oferecemos clareamento a laser, que é mais rápido e eficiente. O tratamento completo custa entre R$ 800 e R$ 1.500."
+    },
+    {
+      "question": "É possível usar Invisalign ao invés de aparelho fixo?",
+      "answer": "Sim! Oferecemos tratamento com alinhadores invisíveis (Invisalign). O dentista avaliará se é indicado para o seu caso durante a consulta."
+    },
+    {
+      "question": "Quanto tempo leva para fazer uma lente de contato dental?",
+      "answer": "O processo completo leva de 2 a 3 sessões. Na primeira fazemos o planejamento, na segunda preparamos os dentes e tiramos moldes, e na terceira instalamos as lentes."
+    },
+    {
+      "question": "Posso fazer vários tratamentos ao mesmo tempo?",
+      "answer": "Sim! Muitas vezes é possível combinar tratamentos para otimizar tempo e custo. O dentista fará um plano de tratamento personalizado para você."
+    },
+    {
+      "question": "A clínica oferece sedação para quem tem medo?",
+      "answer": "Sim! Para pacientes com odontofobia, oferecemos sedação consciente. É um procedimento seguro que ajuda você a relaxar durante o tratamento."
+    },
+    {
+      "question": "Como funciona a manutenção do aparelho ortodôntico?",
+      "answer": "Você precisará vir à clínica mensalmente para ajustes e manutenção. Cada consulta dura cerca de 20-30 minutos."
+    },
+    {
+      "question": "Vocês emitem nota fiscal?",
+      "answer": "Sim! Emitimos nota fiscal e relatório detalhado para reembolso pelo seu plano de saúde (quando aplicável) ou para declaração de Imposto de Renda."
+    },
+    {
+      "question": "Posso levar acompanhante na consulta?",
+      "answer": "Claro! Você pode trazer um acompanhante, especialmente em procedimentos mais longos ou se preferir ter alguém com você."
+    }
+  ],
+  "objection_handling": [
+    {
+      "objection": "Está muito caro",
+      "responses": [
+        "Entendo sua preocupação! Oferecemos parcelamento em até 12x sem juros no cartão, o que fica bem acessível.",
+        "Além do parcelamento, aceitamos convênios odontológicos que podem cobrir parte ou todo o tratamento.",
+        "Investir na saúde bucal agora previne problemas maiores e mais caros no futuro. Podemos fazer um orçamento detalhado para você?"
+      ]
+    },
+    {
+      "objection": "Não tenho tempo agora",
+      "responses": [
+        "Entendo! Temos horários flexíveis, inclusive à noite até às 20h e aos sábados.",
+        "A consulta de avaliação é rápida, leva apenas 30 minutos. Depois montamos um plano que se encaixe na sua rotina.",
+        "Quanto antes cuidar, menos tempo você precisará depois. Que tal agendar para daqui 2 semanas?"
+      ]
+    },
+    {
+      "objection": "Tenho medo de dentista",
+      "responses": [
+        "Você não está sozinho(a)! Muitos pacientes têm essa preocupação. Nossa equipe é treinada para deixar você confortável.",
+        "Usamos tecnologia moderna que torna os procedimentos muito mais tranquilos. Você pode conversar com o dentista sobre suas preocupações.",
+        "Oferecemos sedação consciente para casos de ansiedade intensa. Que tal conhecer nossa clínica primeiro, sem compromisso?"
+      ]
+    },
+    {
+      "objection": "Vou pensar e te aviso",
+      "responses": [
+        "Claro! Posso esclarecer alguma dúvida específica que ajude na sua decisão?",
+        "Que tal agendar uma consulta de avaliação? Assim você pode tirar todas as dúvidas com o dentista pessoalmente.",
+        "Entendo! Vou deixar você com as informações. Posso te enviar mais detalhes sobre o tratamento por mensagem?"
+      ]
+    },
+    {
+      "objection": "Vou ver com meu plano de saúde primeiro",
+      "responses": [
+        "Ótima ideia! Aceitamos diversos convênios. Qual é o seu?",
+        "Mesmo com convênio, fazemos o pré-orçamento para você saber exatamente o que vai pagar.",
+        "Posso te ajudar com as informações que o convênio pedir. Depois você agenda aqui comigo!"
+      ]
+    },
+    {
+      "objection": "Já fiz orçamento em outro lugar mais barato",
+      "responses": [
+        "Entendo! É importante comparar. Nossa diferença está na qualidade dos materiais, tecnologia e experiência da equipe.",
+        "Podemos revisar seu orçamento e ver onde está a diferença. Às vezes incluímos serviços que outros não incluem.",
+        "Preço baixo pode significar economia no curto prazo, mas qualidade inferior pode gerar custos maiores depois."
+      ]
+    }
+  ]
+}

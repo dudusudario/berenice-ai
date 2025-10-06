@@ -1,0 +1,166 @@
+{
+  "treatments": [
+    {
+      "id": "limpeza",
+      "name": "Limpeza Dental (Profilaxia)",
+      "description": "Remoção de tártaro, placa bacteriana e manchas superficiais dos dentes",
+      "duration": "45-60 minutos",
+      "price_range": "R$ 150 - R$ 300",
+      "frequency": "A cada 6 meses",
+      "benefits": [
+        "Previne cáries e gengivite",
+        "Remove manchas e tártaro",
+        "Hálito fresco",
+        "Saúde bucal em dia"
+      ],
+      "keywords": ["limpeza", "profilaxia", "tártaro", "placa", "prevenção"]
+    },
+    {
+      "id": "clareamento",
+      "name": "Clareamento Dental",
+      "description": "Procedimento para clarear os dentes e remover manchas profundas",
+      "duration": "3-4 sessões de 40 minutos",
+      "price_range": "R$ 800 - R$ 1.500",
+      "frequency": "A cada 1-2 anos",
+      "benefits": [
+        "Dentes mais brancos",
+        "Sorriso mais bonito",
+        "Autoestima elevada",
+        "Procedimento seguro"
+      ],
+      "keywords": ["clareamento", "branquear", "manchas", "dentes amarelos", "estética"]
+    },
+    {
+      "id": "ortodontia",
+      "name": "Ortodontia (Aparelho Ortodôntico)",
+      "description": "Correção do alinhamento dos dentes e mordida usando aparelhos fixos ou móveis",
+      "duration": "12-36 meses",
+      "price_range": "R$ 2.000 - R$ 8.000 (tratamento completo)",
+      "frequency": "Consultas mensais",
+      "benefits": [
+        "Dentes alinhados",
+        "Mordida corrigida",
+        "Melhora na mastigação",
+        "Sorriso harmônico"
+      ],
+      "types": [
+        "Aparelho metálico convencional",
+        "Aparelho estético (porcelana)",
+        "Aparelho autoligado",
+        "Invisalign (alinhadores transparentes)"
+      ],
+      "keywords": ["aparelho", "ortodontia", "dentes tortos", "alinhamento", "mordida", "invisalign"]
+    },
+    {
+      "id": "implante",
+      "name": "Implante Dentário",
+      "description": "Substituição de dentes perdidos com pinos de titânio e coroas protéticas",
+      "duration": "3-6 meses (processo completo)",
+      "price_range": "R$ 3.000 - R$ 6.000 por dente",
+      "frequency": "Procedimento único",
+      "benefits": [
+        "Reposição permanente",
+        "Aparência natural",
+        "Função completa",
+        "Preserva osso da mandíbula"
+      ],
+      "keywords": ["implante", "dente perdido", "prótese", "pino de titânio", "dente artificial"]
+    },
+    {
+      "id": "lente",
+      "name": "Lentes de Contato Dental",
+      "description": "Lâminas ultrafinas de porcelana aplicadas sobre os dentes para melhorar a estética",
+      "duration": "2-3 sessões",
+      "price_range": "R$ 1.500 - R$ 3.000 por dente",
+      "frequency": "Duração de 10-20 anos",
+      "benefits": [
+        "Sorriso perfeito",
+        "Correção de formato e cor",
+        "Procedimento minimamente invasivo",
+        "Resultados imediatos"
+      ],
+      "keywords": ["lente", "faceta", "porcelana", "estética", "sorriso perfeito", "harmonização"]
+    },
+    {
+      "id": "canal",
+      "name": "Tratamento de Canal (Endodontia)",
+      "description": "Remoção da polpa infectada do dente para salvar o dente natural",
+      "duration": "1-3 sessões de 60-90 minutos",
+      "price_range": "R$ 600 - R$ 2.000",
+      "frequency": "Quando necessário",
+      "benefits": [
+        "Salva o dente natural",
+        "Elimina a dor",
+        "Previne infecções",
+        "Evita extração"
+      ],
+      "keywords": ["canal", "endodontia", "dor de dente", "infecção", "polpa"]
+    },
+    {
+      "id": "extracao",
+      "name": "Extração Dentária",
+      "description": "Remoção de dentes comprometidos ou sisos",
+      "duration": "30-60 minutos",
+      "price_range": "R$ 200 - R$ 800",
+      "frequency": "Quando necessário",
+      "benefits": [
+        "Elimina dor",
+        "Previne complicações",
+        "Procedimento rápido",
+        "Recuperação tranquila"
+      ],
+      "keywords": ["extração", "arrancar dente", "siso", "remoção", "dente do juízo"]
+    },
+    {
+      "id": "protese",
+      "name": "Prótese Dentária",
+      "description": "Substituição de dentes ausentes com próteses removíveis ou fixas",
+      "duration": "2-4 semanas",
+      "price_range": "R$ 1.500 - R$ 10.000",
+      "frequency": "Duração de 5-15 anos",
+      "types": [
+        "Prótese total (dentadura)",
+        "Prótese parcial removível",
+        "Prótese fixa (ponte)",
+        "Prótese sobre implantes"
+      ],
+      "benefits": [
+        "Reposição de múltiplos dentes",
+        "Restaura função mastigatória",
+        "Melhora estética",
+        "Aumenta autoestima"
+      ],
+      "keywords": ["prótese", "dentadura", "ponte", "dentes postiços", "chapa"]
+    },
+    {
+      "id": "emergencia",
+      "name": "Atendimento de Emergência",
+      "description": "Atendimento imediato para casos de dor aguda, trauma ou infecção",
+      "duration": "Variável",
+      "price_range": "A partir de R$ 150",
+      "frequency": "Quando necessário",
+      "benefits": [
+        "Alívio imediato da dor",
+        "Atendimento rápido",
+        "Resolução de urgências",
+        "Horários flexíveis"
+      ],
+      "keywords": ["emergência", "dor de dente", "urgência", "dente quebrado", "trauma", "inchaço"]
+    }
+  ],
+  "payment_options": {
+    "cash": "Dinheiro ou PIX com 5% de desconto",
+    "debit": "Cartão de débito",
+    "credit": "Cartão de crédito em até 12x sem juros",
+    "installments": "Parcelamento em até 18x com juros",
+    "dental_plan": "Convênios odontológicos aceitos"
+  },
+  "accepted_insurance": [
+    "Amil Dental",
+    "Bradesco Dental",
+    "SulAmérica Odonto",
+    "Odontoprev",
+    "MetLife",
+    "Outros (consultar)"
+  ]
+}
